@@ -15,7 +15,7 @@ const MenuTab = () => {
   return (
     <Tabs.Navigator screenOptions={{tabBarActiveTintColor: 'pink'}}>
       <Tabs.Screen
-        name="Main"
+        name="My Menstruasi"
         component={Main}
         options={{
           tabBarIcon: ({size, color}) => (

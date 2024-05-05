@@ -1,11 +1,14 @@
-import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, View, TouchableOpacity,Image} from 'react-native';
 import React from 'react';
 
-const IconMain = ({label}) => {
+const IconMain = ({label, image}) => {
   return (
     <TouchableOpacity style={styles.container}>
       <View style={styles.box}>
-        <Text style={styles.textIcon}>Icon</Text>
+        <Image
+          source={image}
+          style={styles.image}
+        />
       </View>
       <Text style={styles.textIcon}>{label}</Text>
     </TouchableOpacity>
@@ -24,7 +27,8 @@ const styles = StyleSheet.create({
     alignContent: 'center',
   },
   box: {
-    borderWidth: 1,
+    borderWidth: 3,
+    borderColor:'pink',
     width: 72,
     height: 72,
     justifyContent: 'center',
@@ -34,5 +38,13 @@ const styles = StyleSheet.create({
   textIcon: {
     color: 'black',
     textAlign: 'center',
+    fontWeight: 'bold',
+  },
+  image: {
+    width: 50,
+    height: 50,
+    resizeMode: 'cover',
+    width: '100%',
+    height: '100%', 
   },
 });
