@@ -27,7 +27,7 @@ const Pengaturan = () => {
           value={false}
         />
       </View>
-      <Text style={styles.infoText}>Pengaturan lainnya akan segera hadir!</Text>
+      <Text style={styles.infoText}>Terimakasih atas Kunjungannya</Text>
     </View>
   );
 };
@@ -54,10 +54,12 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   settingLabel: {
+    padding: 10,
     fontSize: 18,
     color: '#333', 
   },
   infoText: {
+    padding: 10,
     fontSize: 14,
     color: '#666', 
     textAlign: 'center',

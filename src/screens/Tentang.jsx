@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 25,
     color: 'black',
     textAlign: 'center',
   },
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   paragraph: {
     fontSize: 16,
     marginBottom: 10,
-    color: 'black',
+    color: 'pink',
     fontWeight: 'bold',
   },
 });

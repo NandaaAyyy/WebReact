@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, FlatList} from 'react-native';
+import {StyleSheet, Text, View, FlatList, Image} from 'react-native';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -15,11 +15,12 @@ const MenuTab = () => {
   return (
     <Tabs.Navigator screenOptions={{tabBarActiveTintColor: 'pink'}}>
       <Tabs.Screen
-        name="My Menstruasi"
+        name="MyMenstruasi"
         component={Main}
         options={{
           tabBarIcon: ({size, color}) => (
-            <MaterialCommunityIcons name="home-modern" size={size} color={color} />
+          <MaterialCommunityIcons name="home-modern" size={size} color={color} />
+
           ),
         }}
       />
