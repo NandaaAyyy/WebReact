@@ -1,6 +1,7 @@
 import {StyleSheet, Text, View, FlatList,Image, TouchableOpacity, ImageBackground} from 'react-native';
 import React from 'react';
 import IconMain from '../components/IconMain';
+// import Pembelajaran from '../screens/pembelajaran';
 
 
 const Data = [
